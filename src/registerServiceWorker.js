@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 // In production, we register a service worker to serve assets from local cache.
 
 // This lets the app load faster on subsequent visits in production, and gives
@@ -102,9 +104,7 @@ function checkValidServiceWorker(swUrl) {
       }
     })
     .catch(() => {
-      console.log(
-        'No internet connection found. App is running in offline mode.'
-      );
+      console.log('No internet connection found. App is running in offline mode.');
     });
 }
 
