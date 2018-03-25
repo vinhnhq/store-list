@@ -3,5 +3,8 @@
   "globals": {
     "window": true,
     "document": true
+  },
+  "env": {
+    "jest": true
   }
 }
