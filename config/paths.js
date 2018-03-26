@@ -45,6 +45,7 @@ module.exports = {
   appIndexJs: resolveApp('src/index.jsx'),
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
+  bourbon: require('node-bourbon').includePaths,
   yarnLockFile: resolveApp('yarn.lock'),
   testsSetup: resolveApp('src/setupTests.js'),
   appNodeModules: resolveApp('node_modules'),

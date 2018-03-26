@@ -187,7 +187,12 @@ module.exports = {
                       localIdentName: '[name]__[local]___[hash:base64:5]',
                     },
                   },
-                  'sass-loader',
+                  {
+                    loader: 'sass-loader',
+                    options: {
+                      includePaths: [paths.bourbon],
+                    },
+                  },
                 ],
               })
             ),
